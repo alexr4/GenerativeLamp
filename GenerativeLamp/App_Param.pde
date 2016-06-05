@@ -1,7 +1,7 @@
 //Sketch properties
 String appName = "Generative Lamp";
 String version = "Alpha";
-String subVersion = "0.0.0";
+String subVersion = "0.0.1";
 String frameName;
 FPSTracking fpsTracker;
 
