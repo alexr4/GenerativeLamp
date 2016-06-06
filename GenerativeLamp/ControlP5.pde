@@ -66,8 +66,8 @@ public void initControl()
   cp5.addSlider("Grid Height")
     .setPosition(10, y)
     .setSize(100, 10)
-    .setRange(10, 500)
-    .setValue(200);
+    .setRange(10, 199)
+    .setValue(190);
   ;
   y += h;
   cp5.addSlider("Resolution")
@@ -211,7 +211,7 @@ public void initControl()
   cp5.addSlider("Pilar Level")
     .setPosition(10, y)
     .setSize(100, 10)
-    .setRange(5, 100)
+    .setRange(0, 100)
     .setValue(2.5)
     ;
 

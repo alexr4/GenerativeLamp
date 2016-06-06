@@ -7,8 +7,8 @@ Plane plane;
 
 void setup()
 {
-  size(1440, 810, P3D);
-  //fullScreen(P3D);
+  //size(1440, 810, P3D);
+  fullScreen(P3D);
   smooth(8);
   appParameter();
 

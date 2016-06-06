@@ -143,7 +143,7 @@ class Plane
 
         float distFromCenter = PVector.dist(new PVector(x, y, z), repulsor1);
         float normDist = norm(distFromCenter, 0, hypotenuse/2);
-        float easing = 65 * NormalEasing.inoutSin(normDist) - noise(nd, ny, nx) * offset * multDepth + (offset/(multDepth*2));
+        float easing = 90 * NormalEasing.inoutSin(normDist) - noise(nd, ny, nx) * offset * multDepth + (offset/(multDepth*2));
 
         z = z - easing;
         if (i == 0 || i==rawVertList.length-1 || j == 0 || j == rawVertList[0].length-1 || z <= pilarLevel)
